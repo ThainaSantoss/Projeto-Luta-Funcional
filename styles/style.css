@@ -1,0 +1,44 @@
+  .fightarea { /* para deixar um ao lado do outro  */
+      display: flex; 
+       gap: 20px;  /* espaço entre um e outro */
+  }
+  
+  #char, 
+  #monster  {
+      flex: 1;  /* Divide espaço entre os id's igualmente entre eles */
+  }
+  
+  
+  .lifebar {
+      height: 10px;
+      border: 1px solid #333;
+      border-radius: 5px;
+      
+  }
+  
+  .lifebar .bar {
+      height: inherit;
+      background-color: red;
+      border-radius: 5px;
+  }
+  
+  .log {
+      border:  10px double #32c016;
+      height: 200px;
+      overflow-y: scroll; /* Barra de rolagem*/
+  }
+  
+  .attackButton {
+      background-color: #f32121;
+      border: none;
+      color: #fff;
+      padding: 10px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 5px;
+  }
+  

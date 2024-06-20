@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="fightarea">
+      <div id="char">
+        <!--ele tem um id porque já será usado no JS -->
+        <div class="lifebar">
+          <div class="bar" style="width: 10%"></div>
+          <!-- Barra de vida -->
+        </div>
+        <strong class="name">--</strong>
+        <div>
+          <button class="attackButton">Atacar</button>
+        </div>
+      </div>
+      <div id="monster">
+        <div class="lifebar">
+          <div class="bar" style="width: 10%"></div>
+          <!-- Barra de vida -->
+        </div>
+        <strong class="name">--</strong>
+        <div>
+          <button class="attackButton">Atacar</button>
+        </div>
+      </div>
+    </div>
+    <ul class="log"></ul>
+
+    <script src="js/functions.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
